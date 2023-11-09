@@ -1,0 +1,57 @@
+.mainContainer{
+  display: grid;
+  grid-template-columns: repeat(3,32%);
+  gap:15px;
+}
+.post{
+  flex-grow:1;
+  border:1px solid #444;
+  border-radius: 15px;
+  transition: all .3s ease-in-out;
+}
+.post:hover{
+  background-color: black;
+  border:1px solid #fff;
+  color: var(--color-secondary) ;
+}
+.imageContainer{
+  position: relative;
+  height: 200px;
+  
+
+}
+.image{
+  object-fit: cover;
+  border-radius: 15px;
+}
+.content{
+  margin: 25px 25px;
+}
+
+/* .post {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #555;
+  border-radius: 15px;
+}
+
+ .post:nth-child(odd) {
+  flex-direction: row-reverse;
+} 
+
+.image {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.text {
+  font-size: 18px;
+  color: #999;
+}
+ */
