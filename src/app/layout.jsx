@@ -8,7 +8,7 @@ const LogoFont = Montserrat({
 })
 
 export const metadata = {
-  title: 'Hexashop',
+  title: 'MARWASHOP',
   description: 'Discover a world of endless shopping possibilities ay our online store.Browser',
 }
 import Navbar from '@/components/Navbar/Navbar'
